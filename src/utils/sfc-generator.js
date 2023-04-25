@@ -425,12 +425,9 @@ function genTemplate(formConfig, widgetList, vue3Flag = false) {
   })
 
   const formTemplate =
-`  <el-form :model="${formConfig.modelName}" ref="${formConfig.refName}" :rules="${formConfig.rulesName}"
-    label-position="${formConfig.labelPosition}" label-width="${formConfig.labelWidth}px" size="${formConfig.size || 'default'}"
-    ${submitAttr}>
+`  
   ${!!childrenList ? childrenList.join('\n') : ''}
-</el-form>`
-
+`
   return formTemplate
 }
 
