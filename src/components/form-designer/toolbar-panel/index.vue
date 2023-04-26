@@ -205,6 +205,7 @@
 
   export default {
     name: "ToolbarPanel",
+    name: "ToolbarPanel",
     mixins: [i18n],
     components: {
       VFormRender,

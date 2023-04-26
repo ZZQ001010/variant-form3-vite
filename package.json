@@ -17,6 +17,7 @@
     "element-plus": "^2.2.22",
     "file-saver": "^2.0.5",
     "mitt": "^3.0.0",
+    "monaco-editor": "^0.37.1",
     "sortablejs": "1.14.0",
     "vue": "^3.2.32",
     "vue3-quill": "^0.2.6"

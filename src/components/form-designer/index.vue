@@ -12,9 +12,18 @@
   <el-container class="main-container full-height">
     <el-header class="main-header">
       <div class="float-left main-title">
-        <img src="../../assets/vform-logo.png" @click="openHome">
-        <span class="bold">VForm 3</span> {{i18nt('application.productTitle')}} <span class="version-span">Ver {{vFormVersion}}</span></div>
+        <!--<img src="../../assets/vform-logo.png" @click="openHome">-->
+        <span class="bold">BOB</span> {{i18nt('application.productTitle')}} <span class="version-span">{{vFormVersion}}</span></div>
       <div class="float-right external-link">
+        <el-dropdown split-button type="primary">
+          {{currentProject}}
+          <template #dropdown>
+          <el-dropdown-menu slot="dropdown">
+            <el-dropdown-item @click="projectClick(item)" v-for="(item, index) in projects"> {{item}}</el-dropdown-item>
+          </el-dropdown-menu>
+          </template>
+        </el-dropdown>
+
         <el-dropdown v-if="showLink('languageMenu')" :hide-timeout="2000" @command="handleLanguageChanged">
           <span class="el-dropdown-link">{{curLangName}}<svg-icon icon-class="el-arrow-down" /></span>
           <template #dropdown>
@@ -24,36 +33,52 @@
             </el-dropdown-menu>
           </template>
         </el-dropdown>
-        <a v-if="showLink('externalLink')" href="javascript:void(0)" @click="(ev) => openUrl(ev, gitUrl)" target="_blank"><svg-icon icon-class="github" />{{i18nt('application.github')}}</a>
-        <a v-if="showLink('externalLink')" href="javascript:void(0)" @click="(ev) => openUrl(ev, docUrl)" target="_blank"><svg-icon icon-class="document" />{{i18nt('application.document')}}</a>
-        <a v-if="showLink('externalLink')" href="javascript:void(0)" @click="(ev) => openUrl(ev, chatUrl)" target="_blank">{{i18nt('application.qqGroup')}}</a>
-        <a v-if="showLink('externalLink')" href="javascript:void(0)" @click="(ev) => openUrl(ev, subScribeUrl)" target="_blank">
-          {{i18nt('application.subscription')}}<i class="el-icon-top-right"></i></a>
+        <!--<a v-if="showLink('externalLink')" href="javascript:void(0)" @click="(ev) => openUrl(ev, gitUrl)" target="_blank"><svg-icon icon-class="github" />{{i18nt('application.github')}}</a>-->
+        <!--<a v-if="showLink('externalLink')" href="javascript:void(0)" @click="(ev) => openUrl(ev, docUrl)" target="_blank"><svg-icon icon-class="document" />{{i18nt('application.document')}}</a>-->
+        <!--<a v-if="showLink('externalLink')" href="javascript:void(0)" @click="(ev) => openUrl(ev, chatUrl)" target="_blank">{{i18nt('application.qqGroup')}}</a>-->
+        <!--<a v-if="showLink('externalLink')" href="javascript:void(0)" @click="(ev) => openUrl(ev, subScribeUrl)" target="_blank">-->
+          <!--{{i18nt('application.subscription')}}<i class="el-icon-top-right"></i></a>-->
       </div>
     </el-header>
 
     <el-container>
       <el-aside class="side-panel">
-        <widget-panel :designer="designer" />
+        <widget-panel :designer="designer"
+                      v-on:setCodeEvent="initEditorContent"
+                      v-on:openEditorEvent="openEditor"
+                      v-on:closeEditorEvent="closeEditor"
+                      v-on:updatePathEvent="updatePath"
+        />
       </el-aside>
 
       <el-container class="center-layout-container">
-        <el-header class="toolbar-header">
-          <toolbar-panel :designer="designer" :global-dsv="globalDsv" ref="toolbarRef">
+
+        <el-header class="toolbar-header" >
+          <toolbar-panel v-if="!edit" :designer="designer" :global-dsv="globalDsv" ref="toolbarRef">
             <template v-for="(idx, slotName) in $slots" #[slotName]>
               <slot :name="slotName"></slot>
             </template>
           </toolbar-panel>
+
+          <el-link icon="el-icon-edit">{{path}}</el-link>
+          <el-button type="primary" @click="saveCode()" style="margin-left: 85%" >保存</el-button>
+
         </el-header>
         <el-main class="form-widget-main">
-          <el-scrollbar class="container-scroll-bar" :style="{height: scrollerHeight}">
+
+          <el-scrollbar v-if="!edit" class="container-scroll-bar" :style="{height: scrollerHeight}">
             <v-form-widget :designer="designer" :form-config="designer.formConfig" :global-dsv="globalDsv" ref="formRef">
             </v-form-widget>
           </el-scrollbar>
+
+          <!--- 加入编辑器 -->
+          <MonacoEditor ref="monacoEditor" @update:code="setCode" v-if="edit" :code.sync="code" :height="height" :options="options" :width="width"></MonacoEditor>
+
         </el-main>
+
       </el-container>
 
-      <el-aside>
+      <el-aside v-if="!edit">
         <setting-panel :designer="designer" :selected-widget="designer.selectedWidget"
                        :form-config="designer.formConfig" :global-dsv="globalDsv" @edit-event-handler="testEEH" />
       </el-aside>
@@ -67,6 +92,7 @@
   import ToolbarPanel from './toolbar-panel/index'
   import SettingPanel from './setting-panel/index'
   import VFormWidget from './form-widget/index'
+  import MonacoEditor from './monaco-editor/index'
   import {createDesigner} from "@/components/form-designer/designer"
   import {addWindowResizeHandler, deepClone, getQueryParam, getAllContainerWidgets,
     getAllFieldWidgets, traverseAllWidgets} from "@/utils/util"
@@ -85,6 +111,7 @@
       ToolbarPanel,
       SettingPanel,
       VFormWidget,
+      MonacoEditor,
     },
     props: {
       /* 后端字段列表API */
@@ -111,9 +138,9 @@
 
             clearDesignerButton: true,  //是否显示清空设计器按钮
             previewFormButton: true,  //是否显示预览表单按钮
-            importJsonButton: true,  //是否显示导入JSON按钮
-            exportJsonButton: true,  //是否显示导出JSON器按钮
-            exportCodeButton: true,  //是否显示导出代码按钮
+            importJsonButton: false,  //是否显示导入JSON按钮
+            exportJsonButton: false,  //是否显示导出JSON器按钮
+            exportCodeButton: false,  //是否显示导出代码按钮
             generateSFCButton: true,  //是否显示生成SFC按钮
 
             toolbarMaxWidth: 450,  //设计器工具按钮栏最大宽度（单位像素）
@@ -151,7 +178,17 @@
 
         designer: createDesigner(this),
 
-        fieldList: []
+        fieldList: [],
+
+        projects: ["ACM", "PCS", "CCS"],
+        currentProject: "",
+        edit: false,
+        code: '',
+        height: '100%',
+        width: '100%',
+        options: {},
+
+        path: "",
       }
     },
     provide() {
@@ -179,6 +216,40 @@
       this.loadFieldListFromServer()
     },
     methods: {
+      saveCode() {
+        axios
+                .post(`http://localhost:8866/file`, {
+                  path: this.path,
+                  content: this.code,
+                })
+                .then((response) => {
+                  console.log(response.data);
+                })
+                .catch((error) => {
+                  console.error(error);
+                });
+      },
+      updatePath(path) {
+        this.path = path;
+      },
+      openEditor() {
+        debugger
+        this.edit = true;
+      },
+      closeEditor() {
+        debugger
+        this.edit = false;
+      },
+      initEditorContent(code) {
+        const monacoEditor = this.$refs.monacoEditor;
+        monacoEditor.updateEditorContent(code);
+      },
+      setCode(code) {
+        this.code = code;
+      },
+      projectClick(project) {
+        this.currentProject = project;
+      },
       testEEH(eventName, eventParams) {
         console.log('test', eventName)
         console.log('test222222', eventParams)

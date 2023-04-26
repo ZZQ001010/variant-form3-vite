@@ -1,0 +1,1705 @@
+[
+  {
+    "label": "variant-form3-vite",
+    "children": [
+      {
+        "label": ".gitignore",
+        "children": []
+      },
+      {
+        "label": "README.md",
+        "children": []
+      },
+      {
+        "label": "index.html",
+        "children": []
+      },
+      {
+        "label": "install-render.js",
+        "children": []
+      },
+      {
+        "label": "install.js",
+        "children": []
+      },
+      {
+        "label": "jsconfig.json",
+        "children": []
+      },
+      {
+        "label": "lib",
+        "children": [
+          {
+            "label": "vuedraggable",
+            "children": [
+              {
+                "label": "LICENSE",
+                "children": []
+              },
+              {
+                "label": "README.md",
+                "children": []
+              },
+              {
+                "label": "dist",
+                "children": [
+                  {
+                    "label": "vuedraggable.common.js",
+                    "children": []
+                  },
+                  {
+                    "label": "vuedraggable.common.js.map",
+                    "children": []
+                  },
+                  {
+                    "label": "vuedraggable.umd.js",
+                    "children": []
+                  },
+                  {
+                    "label": "vuedraggable.umd.js.map",
+                    "children": []
+                  },
+                  {
+                    "label": "vuedraggable.umd.min.js",
+                    "children": []
+                  },
+                  {
+                    "label": "vuedraggable.umd.min.js.map",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "label": "package.json",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "license.txt",
+        "children": []
+      },
+      {
+        "label": "package.json",
+        "children": []
+      },
+      {
+        "label": "public",
+        "children": [
+          {
+            "label": "favicon.ico",
+            "children": []
+          },
+          {
+            "label": "json",
+            "children": [
+              {
+                "label": "files.json",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "src",
+        "children": [
+          {
+            "label": "App.vue",
+            "children": []
+          },
+          {
+            "label": "assets",
+            "children": [
+              {
+                "label": "ft-images",
+                "children": [
+                  {
+                    "label": "t1.png",
+                    "children": []
+                  },
+                  {
+                    "label": "t2.png",
+                    "children": []
+                  },
+                  {
+                    "label": "t3.png",
+                    "children": []
+                  },
+                  {
+                    "label": "t4.png",
+                    "children": []
+                  },
+                  {
+                    "label": "t5.png",
+                    "children": []
+                  },
+                  {
+                    "label": "t6.png",
+                    "children": []
+                  },
+                  {
+                    "label": "t7.png",
+                    "children": []
+                  },
+                  {
+                    "label": "t8.png",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "label": "vform-logo.png",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "components",
+            "children": [
+              {
+                "label": "code-editor",
+                "children": [
+                  {
+                    "label": "index.vue",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "label": "form-designer",
+                "children": [
+                  {
+                    "label": "designer.js",
+                    "children": []
+                  },
+                  {
+                    "label": "form-widget",
+                    "children": [
+                      {
+                        "label": "container-widget",
+                        "children": [
+                          {
+                            "label": "container-wrapper.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "containerMixin.js",
+                            "children": []
+                          },
+                          {
+                            "label": "grid-col-widget.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "grid-widget.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "index.js",
+                            "children": []
+                          },
+                          {
+                            "label": "tab-widget.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "table-cell-widget.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "table-widget.vue",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "label": "field-widget",
+                        "children": [
+                          {
+                            "label": "button-widget.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "cascader-widget.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "checkbox-widget.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "color-widget.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "date-range-widget.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "date-widget.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "divider-widget.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "fieldMixin.js",
+                            "children": []
+                          },
+                          {
+                            "label": "file-upload-widget.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "form-item-wrapper.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "html-text-widget.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "index.js",
+                            "children": []
+                          },
+                          {
+                            "label": "input-widget.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "number-widget.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "picture-upload-widget.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "radio-widget.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "rate-widget.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "rich-editor-widget.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "select-widget.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "slider-widget.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "slot-widget.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "static-content-wrapper.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "static-text-widget.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "switch-widget.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "textarea-widget.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "time-range-widget.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "time-widget.vue",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "label": "index.vue",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "label": "index.vue",
+                    "children": []
+                  },
+                  {
+                    "label": "refMixinDesign.js",
+                    "children": []
+                  },
+                  {
+                    "label": "setting-panel",
+                    "children": [
+                      {
+                        "label": "form-setting.vue",
+                        "children": []
+                      },
+                      {
+                        "label": "index.vue",
+                        "children": []
+                      },
+                      {
+                        "label": "option-items-setting.vue",
+                        "children": []
+                      },
+                      {
+                        "label": "property-editor-factory.jsx",
+                        "children": []
+                      },
+                      {
+                        "label": "property-editor",
+                        "children": [
+                          {
+                            "label": "allowCreate-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "appendButton-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "appendButtonDisabled-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "autoFullWidth-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "automaticDropdown-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "border-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "buttonIcon-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "buttonStyle-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "clearable-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "columnWidth-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "container-grid-col",
+                            "children": [
+                              {
+                                "label": "grid-col-offset-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "grid-col-pull-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "grid-col-push-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "grid-col-responsive-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "grid-col-span-editor.vue",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "label": "container-grid",
+                            "children": [
+                              {
+                                "label": "colHeight-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "gutter-editor.vue",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "label": "container-sub-form",
+                            "children": [
+                              {
+                                "label": "showBlankRow-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "showRowNumber-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "sub-form-labelAlign-editor.vue",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "label": "container-tab",
+                            "children": [
+                              {
+                                "label": "tab-customClass-editor.vue",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "label": "container-table-cell",
+                            "children": [
+                              {
+                                "label": "cellHeight-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "cellWidth-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "wordBreak-editor.vue",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "label": "customClass-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "defaultValue-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "disabled-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "displayStyle-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "editable-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "endPlaceholder-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "event-handler",
+                            "children": [
+                              {
+                                "label": "eventMixin.js",
+                                "children": []
+                              },
+                              {
+                                "label": "onAppendButtonClick-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "onBeforeUpload-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "onBlur-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "onChange-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "onClick-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "onCreated-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "onFileRemove.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "onFocus-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "onInput-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "onMounted-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "onRemoteQuery-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "onSubFormRowAdd-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "onSubFormRowChange-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "onSubFormRowDelete-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "onSubFormRowInsert-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "onUploadError-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "onUploadSuccess-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "onValidate-editor.vue",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "label": "field-button",
+                            "children": [
+                              {
+                                "label": "button-type-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "circle-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "icon-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "plain-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "round-editor.vue",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "label": "field-cascader",
+                            "children": [
+                              {
+                                "label": "cascader-defaultValue-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "cascader-multiple-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "checkStrictly-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "showAllLevels-editor.vue",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "label": "field-checkbox",
+                            "children": [
+                              {
+                                "label": "checkbox-defaultValue-editor.vue",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "label": "field-color",
+                            "children": [
+                              {
+                                "label": "color-defaultValue-editor.vue",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "label": "field-date-range",
+                            "children": [
+                              {
+                                "label": "date-range-defaultValue-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "date-range-format-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "date-range-type-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "date-range-valueFormat-editor.vue",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "label": "field-date",
+                            "children": [
+                              {
+                                "label": "date-defaultValue-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "date-format-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "date-type-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "date-valueFormat-editor.vue",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "label": "field-divider",
+                            "children": [
+                              {
+                                "label": "contentPosition-editor.vue",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "label": "field-file-upload",
+                            "children": [
+                              {
+                                "label": "file-upload-fileTypes-editor.vue",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "label": "field-html-text",
+                            "children": [
+                              {
+                                "label": "htmlContent-editor.vue",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "label": "field-number",
+                            "children": [
+                              {
+                                "label": "controlsPosition-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "number-defaultValue-editor.vue",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "label": "field-picture-upload",
+                            "children": [
+                              {
+                                "label": "picture-upload-fileTypes-editor.vue",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "label": "field-radio",
+                            "children": [
+                              {
+                                "label": "radio-defaultValue-editor.vue",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "label": "field-rate",
+                            "children": [
+                              {
+                                "label": "allowHalf-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "highThreshold-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "lowThreshold-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "rate-defaultValue-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "rate-max-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "showScore-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "showText-editor.vue",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "label": "field-rich-editor",
+                            "children": [
+                              {
+                                "label": "rich-editor-contentHeight-editor.vue",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "label": "field-select",
+                            "children": [
+                              {
+                                "label": "select-defaultValue-editor.vue",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "label": "field-slider",
+                            "children": [
+                              {
+                                "label": "range-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "showStops-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "vertical-editor.vue",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "label": "field-static-text",
+                            "children": [
+                              {
+                                "label": "fontSize-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "preWrap-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "textContent-editor.vue",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "label": "field-switch",
+                            "children": [
+                              {
+                                "label": "activeColor-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "activeText-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "inactiveColor-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "inactiveText-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "switch-defaultValue-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "switchWidth-editor.vue",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "label": "field-time-range",
+                            "children": [
+                              {
+                                "label": "time-range-defaultValue-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "time-range-format-editor.vue",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "label": "field-time",
+                            "children": [
+                              {
+                                "label": "time-defaultValue-editor.vue",
+                                "children": []
+                              },
+                              {
+                                "label": "time-format-editor.vue",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "label": "fileMaxSize-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "filterable-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "hidden-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "index.js",
+                            "children": []
+                          },
+                          {
+                            "label": "label-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "labelAlign-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "labelHidden-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "labelIconClass-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "labelIconPosition-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "labelTooltip-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "labelWidth-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "limit-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "max-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "maxLength-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "min-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "minLength-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "multiple-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "multipleLimit-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "multipleSelect-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "name-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "optionItems-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "placeholder-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "precision-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "prefixIcon-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "propertyMixin.js",
+                            "children": []
+                          },
+                          {
+                            "label": "readonly-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "remote-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "required-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "requiredHint-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "rows-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "showFileList-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "showPassword-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "showWordLimit-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "size-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "startPlaceholder-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "step-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "suffixIcon-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "textAlign-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "type-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "uploadTip-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "uploadURL-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "validation-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "validationHint-editor.vue",
+                            "children": []
+                          },
+                          {
+                            "label": "withCredentials-editor.vue",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "label": "propertyRegister.js",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "label": "toolbar-panel",
+                    "children": [
+                      {
+                        "label": "index.vue",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "label": "widget-panel",
+                    "children": [
+                      {
+                        "label": "index.vue",
+                        "children": []
+                      },
+                      {
+                        "label": "templatesConfig.js",
+                        "children": []
+                      },
+                      {
+                        "label": "widgetsConfig.js",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "label": "form-render",
+                "children": [
+                  {
+                    "label": "container-item",
+                    "children": [
+                      {
+                        "label": "container-item-wrapper.vue",
+                        "children": []
+                      },
+                      {
+                        "label": "containerItemMixin.js",
+                        "children": []
+                      },
+                      {
+                        "label": "grid-col-item.vue",
+                        "children": []
+                      },
+                      {
+                        "label": "grid-item.vue",
+                        "children": []
+                      },
+                      {
+                        "label": "index.js",
+                        "children": []
+                      },
+                      {
+                        "label": "sub-form-item.vue",
+                        "children": []
+                      },
+                      {
+                        "label": "tab-item.vue",
+                        "children": []
+                      },
+                      {
+                        "label": "table-cell-item.vue",
+                        "children": []
+                      },
+                      {
+                        "label": "table-item.vue",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "label": "index.vue",
+                    "children": []
+                  },
+                  {
+                    "label": "refMixin.js",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "label": "svg-icon",
+                "children": [
+                  {
+                    "label": "index.vue",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "label": "v-table",
+                "children": [
+                  {
+                    "label": "index.vue",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "extension",
+            "children": [
+              {
+                "label": "extension-helper.js",
+                "children": []
+              },
+              {
+                "label": "extension-loader.js",
+                "children": []
+              },
+              {
+                "label": "samples",
+                "children": [
+                  {
+                    "label": "alert",
+                    "children": [
+                      {
+                        "label": "alert-widget.vue",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "label": "card",
+                    "children": [
+                      {
+                        "label": "card-item.vue",
+                        "children": []
+                      },
+                      {
+                        "label": "card-widget.vue",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "label": "extension-schema.js",
+                    "children": []
+                  },
+                  {
+                    "label": "extension-sfc-generator.js",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "iconfont",
+            "children": [
+              {
+                "label": "iconfont.css",
+                "children": []
+              },
+              {
+                "label": "iconfont.eot",
+                "children": []
+              },
+              {
+                "label": "iconfont.js",
+                "children": []
+              },
+              {
+                "label": "iconfont.json",
+                "children": []
+              },
+              {
+                "label": "iconfont.svg",
+                "children": []
+              },
+              {
+                "label": "iconfont.ttf",
+                "children": []
+              },
+              {
+                "label": "iconfont.woff",
+                "children": []
+              },
+              {
+                "label": "iconfont.woff2",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "icons",
+            "children": [
+              {
+                "label": "svg",
+                "children": [
+                  {
+                    "label": "alert.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "button.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "card.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "cascader-field.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "checkbox-field.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "color-field.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "custom-component.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "custom",
+                    "children": [
+                      {
+                        "label": "search.svg",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "label": "data-table.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "date-field.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "date-range-field.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "divider.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "document.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "drag.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "el",
+                    "children": [
+                      {
+                        "label": "arrow-down.svg",
+                        "children": []
+                      },
+                      {
+                        "label": "back.svg",
+                        "children": []
+                      },
+                      {
+                        "label": "check.svg",
+                        "children": []
+                      },
+                      {
+                        "label": "clone.svg",
+                        "children": []
+                      },
+                      {
+                        "label": "delete.svg",
+                        "children": []
+                      },
+                      {
+                        "label": "download.svg",
+                        "children": []
+                      },
+                      {
+                        "label": "drag-move.svg",
+                        "children": []
+                      },
+                      {
+                        "label": "form-template.svg",
+                        "children": []
+                      },
+                      {
+                        "label": "hide.svg",
+                        "children": []
+                      },
+                      {
+                        "label": "info.svg",
+                        "children": []
+                      },
+                      {
+                        "label": "insert-column.svg",
+                        "children": []
+                      },
+                      {
+                        "label": "insert-row.svg",
+                        "children": []
+                      },
+                      {
+                        "label": "menu.svg",
+                        "children": []
+                      },
+                      {
+                        "label": "move-down.svg",
+                        "children": []
+                      },
+                      {
+                        "label": "move-up.svg",
+                        "children": []
+                      },
+                      {
+                        "label": "plus.svg",
+                        "children": []
+                      },
+                      {
+                        "label": "set-up.svg",
+                        "children": []
+                      },
+                      {
+                        "label": "view.svg",
+                        "children": []
+                      },
+                      {
+                        "label": "zoom-in.svg",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "label": "file-upload-field.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "github.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "grid.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "html-text.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "node-tree.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "number-field.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "picture-upload-field.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "radio-field.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "rate-field.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "redo.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "rich-editor-field.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "section.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "select-field.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "slider-field.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "slot-component.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "slot-field.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "static-text.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "sub-form.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "switch-field.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "tab.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "table.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "text-field.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "textarea-field.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "time-field.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "time-range-field.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "undo.svg",
+                    "children": []
+                  },
+                  {
+                    "label": "vue-sfc.svg",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "lang",
+            "children": [
+              {
+                "label": "en-US.js",
+                "children": []
+              },
+              {
+                "label": "en-US_extension.js",
+                "children": []
+              },
+              {
+                "label": "en-US_render.js",
+                "children": []
+              },
+              {
+                "label": "zh-CN.js",
+                "children": []
+              },
+              {
+                "label": "zh-CN_extension.js",
+                "children": []
+              },
+              {
+                "label": "zh-CN_render.js",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "main.js",
+            "children": []
+          },
+          {
+            "label": "styles",
+            "children": [
+              {
+                "label": "global.scss",
+                "children": []
+              },
+              {
+                "label": "index.scss",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "utils",
+            "children": [
+              {
+                "label": "beautifierLoader.js",
+                "children": []
+              },
+              {
+                "label": "code-generator.js",
+                "children": []
+              },
+              {
+                "label": "config.js",
+                "children": []
+              },
+              {
+                "label": "create-app.js",
+                "children": []
+              },
+              {
+                "label": "debug-console.js",
+                "children": []
+              },
+              {
+                "label": "directive.js",
+                "children": []
+              },
+              {
+                "label": "el-icons.js",
+                "children": []
+              },
+              {
+                "label": "emitter.js",
+                "children": []
+              },
+              {
+                "label": "event-bus.js",
+                "children": []
+              },
+              {
+                "label": "i18n.js",
+                "children": []
+              },
+              {
+                "label": "sfc-generator.js",
+                "children": []
+              },
+              {
+                "label": "smart-vue-i18n",
+                "children": [
+                  {
+                    "label": "index.js",
+                    "children": []
+                  },
+                  {
+                    "label": "utils.js",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "label": "util.js",
+                "children": []
+              },
+              {
+                "label": "validators.js",
+                "children": []
+              },
+              {
+                "label": "vue2js-generator.js",
+                "children": []
+              },
+              {
+                "label": "vue3js-generator.js",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "vite-lib-render.config.js",
+        "children": []
+      },
+      {
+        "label": "vite-lib.config.js",
+        "children": []
+      },
+      {
+        "label": "vite.config.js",
+        "children": []
+      },
+      {
+        "label": "package-lock.json",
+        "children": []
+      },
+      {
+        "label": "._package.json",
+        "children": []
+      },
+      {
+        "label": ".idea",
+        "children": [
+          {
+            "label": "workspace.xml",
+            "children": []
+          },
+          {
+            "label": "variant-form3-vite.iml",
+            "children": []
+          },
+          {
+            "label": "encodings.xml",
+            "children": []
+          },
+          {
+            "label": "modules.xml",
+            "children": []
+          },
+          {
+            "label": "misc.xml",
+            "children": []
+          },
+          {
+            "label": "vcs.xml",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+]
